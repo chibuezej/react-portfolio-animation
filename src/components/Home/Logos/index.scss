@@ -1,0 +1,42 @@
+.logo-container {
+   
+    z-index: 1;
+    width: 44%;
+    display: flex;
+    height: 627px;
+    position: absolute;
+    top: 183px;
+    right: 65%;
+    bottom: 7%;
+    left: 29%;
+    margin: 3%;
+    opacity: 0;
+
+    svg {
+        width: 100%;
+        height: auto;
+        bottom: 0;
+        transform: rotateZ(30deg) !important;
+    }
+    .solid-logo {
+        position: absolute;
+        display: flex;
+        top: 50px;
+        right: 50%;
+        bottom: 290px;
+        left: 10%;
+        margin: auto;
+        width: 100%;
+        opacity: 0;
+        transform: rotateZ(30deg);
+        z-index: 1;
+        animation: rotateIn 1s linear both;
+        animation-delay: 1.5s
+        
+    }
+}
+
+.svg-container {
+    stroke: #ffd700;
+    stroke-width: 10px;
+}
