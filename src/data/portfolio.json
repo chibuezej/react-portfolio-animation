@@ -3,13 +3,13 @@
         {
             "cover": "/portfolio/1/home.jpeg",
             "title": "Stars",
-            "description": "download",
+            "description": "Google",
             "url":"http://google.com"
         },
         {
             "cover": "/portfolio/1/meriles.jpeg",
-            "title": "Stars",
-            "description": "download",
+            "title": "Github",
+            "description": "my github ",
             "url":"https://github.com/chibuezej"
         }
     ]
