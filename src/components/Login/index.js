@@ -1,10 +1,10 @@
-import { signInWithGoogle } from "../../fireebase";
-const Login = () => {
-    return (
-        <div className="dashboard">
-            <button onClick={signInWithGoogle}>Sign in with google</button>
-        </div>
-    )
-}
+// import { signInWithGoogle } from "../../fireebase";
+// const Login = () => {
+//     return (
+//         <div className="dashboard">
+//             <button onClick={signInWithGoogle}>Sign in with google</button>
+//         </div>
+//     )
+// }
 
-export default Login;
+// export default Login;
