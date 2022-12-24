@@ -1,12 +1,14 @@
+import React from 'react';
 import Loader from 'react-loaders';
 import './index.scss'
 import AnimatedLetters from "../AnimatedLetters";
 import { useEffect, useState } from 'react';
 import portfolioData from '../../data/portfolio.json'
-
+// import { getDocs, collection } from 'firebase/firestore';
+// import {db} from '../../fireebase'
 const Portfolio = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
-    console.log(portfolioData)
+//    const [portfolio, setPortfolio] = useState([])
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -15,8 +17,19 @@ const Portfolio = () => {
         return () => {
             clearTimeout(timer);
         }
-    })
+    });
 
+//     useEffect(() => {
+//         getPortfolio()
+//     }, [])
+    
+//     const getPortfolio = async () => {
+//       const querySnapshot = await  getDocs(collection(db, 'portfolio'));
+//       console.log(querySnapshot);
+//     }
+  
+// console.log(portfolio)
+       
     const renderportfolio = (portfolio) => {
         return (
             <div className='images-container'>
